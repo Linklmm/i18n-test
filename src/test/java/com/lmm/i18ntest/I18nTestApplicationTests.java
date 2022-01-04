@@ -8,6 +8,8 @@ class I18nTestApplicationTests {
 
     @Test
     void contextLoads() {
+        Long id = new Long(1476858947156692993L);
+        System.out.println(id%10);
     }
 
 }
